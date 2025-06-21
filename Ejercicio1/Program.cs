@@ -15,5 +15,9 @@ if(esNumero)
         Console.WriteLine("El numero invertido es: " + invertido);
     }
 }
+else
+{
+    Console.WriteLine("El numero ingresado no es positivo o no es un numero valido.");
+}
 
 
