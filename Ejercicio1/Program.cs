@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Ingrese un numero: ");
-string numero = Console.ReadLine();
+string? numero = Console.ReadLine();
 bool esNumero = int.TryParse(numero, out int resultado);
 
 if(esNumero)
@@ -19,5 +19,4 @@ else
 {
     Console.WriteLine("El numero ingresado no es positivo o no es un numero valido.");
 }
-
 
