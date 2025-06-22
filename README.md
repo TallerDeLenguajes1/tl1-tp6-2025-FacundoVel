@@ -22,7 +22,7 @@ Las secuencias de escape permiten representar caracteres especiales dentro de ca
 | `\v`      | Tabulación vertical          |
 
 ¿Qué sucede cuando se utiliza el carácter @ y $ antes de una cadena de texto?
-    - **@** (Verbatim string literal): Permite escribir cadenas tal cual aparecen, ignorando las secuencias de escape.
-    Se usa principalmente para rutas de archivos o textos multilinea.
+- **@** (Verbatim string literal): Permite escribir cadenas tal cual aparecen, ignorando las secuencias de escape.
+Se usa principalmente para rutas de archivos o textos multilinea.
 
-    - $ (Interpolated string): Permite insertar variables o expresiones directamente dentro de la cadena utilizando {}.
+- **$** (Interpolated string): Permite insertar variables o expresiones directamente dentro de la cadena utilizando {}.
